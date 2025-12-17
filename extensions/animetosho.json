@@ -1,0 +1,11 @@
+{
+  "id": "animetosho",
+  "name": "AnimeTosho",
+  "type": "torrent",
+  "language": "en",
+  "baseUrl": "https://animetosho.org",
+  "search": {
+    "path": "/search?q={query}",
+    "method": "GET"
+  }
+}

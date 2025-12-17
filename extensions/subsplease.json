@@ -1,0 +1,11 @@
+{
+  "id": "subsplease",
+  "name": "SubsPlease",
+  "type": "torrent",
+  "language": "en",
+  "baseUrl": "https://subsplease.org",
+  "search": {
+    "path": "/rss/?r=1080",
+    "method": "GET"
+  }
+}

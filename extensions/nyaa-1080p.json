@@ -1,0 +1,11 @@
+{
+  "id": "nyaa-1080p",
+  "name": "Nyaa 1080p",
+  "type": "torrent",
+  "language": "en",
+  "baseUrl": "https://nyaa.si",
+  "search": {
+    "path": "/?f=0&c=1_2&q={query}+1080p",
+    "method": "GET"
+  }
+}
