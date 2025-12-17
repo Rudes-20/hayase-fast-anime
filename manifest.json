@@ -5,7 +5,7 @@
   "extensions": [
     {
       "id": "nyaa-1080p",
-      "name": "Nyaa (1080p Focus)",
+      "name": "Nyaa 1080p",
       "description": "High-seed 1080p anime from Nyaa",
       "version": "1.0.0",
       "url": "extensions/nyaa-1080p.json"
