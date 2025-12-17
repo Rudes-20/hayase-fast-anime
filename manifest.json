@@ -1,28 +1,41 @@
-{
-  "name": "Fast Anime Torrents",
-  "description": "Optimized Hayase repo for fast 1080p anime streaming",
-  "version": 1,
-  "extensions": [
-    {
-      "id": "nyaa-1080p",
-      "name": "Nyaa 1080p",
-      "description": "High-seed 1080p anime from Nyaa",
-      "version": "1.0.0",
-      "url": "extensions/nyaa-1080p.json"
-    },
-    {
-      "id": "subsplease",
-      "name": "SubsPlease",
-      "description": "Fastest airing anime releases",
-      "version": "1.0.0",
-      "url": "extensions/subsplease.json"
-    },
-    {
-      "id": "animetosho",
-      "name": "AnimeTosho",
-      "description": "Mirror & batch anime torrents",
-      "version": "1.0.0",
-      "url": "extensions/animetosho.json"
+[
+  {
+    "id": "nyaa-1080p",
+    "name": "Nyaa 1080p",
+    "description": "High-seed 1080p anime from Nyaa",
+    "version": "1.0.0",
+    "type": "torrent",
+    "language": "en",
+    "baseUrl": "https://nyaa.si",
+    "search": {
+      "path": "/?f=0&c=1_2&q={query}+1080p",
+      "method": "GET"
     }
-  ]
-}
+  },
+  {
+    "id": "subsplease",
+    "name": "SubsPlease",
+    "description": "Fastest airing anime releases",
+    "version": "1.0.0",
+    "type": "torrent",
+    "language": "en",
+    "baseUrl": "https://subsplease.org",
+    "search": {
+      "path": "/rss/?r=1080",
+      "method": "GET"
+    }
+  },
+  {
+    "id": "animetosho",
+    "name": "AnimeTosho",
+    "description": "Mirror & batch anime torrents",
+    "version": "1.0.0",
+    "type": "torrent",
+    "language": "en",
+    "baseUrl": "https://animetosho.org",
+    "search": {
+      "path": "/search?q={query}",
+      "method": "GET"
+    }
+  }
+]
